@@ -1,41 +1,202 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>ESC 101 Semester 2021-2022-I</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <style>
-      table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 75%;
-      }
-
-      td,
-      th {
-        border: 1px solid #dddddd;
+      h1 {
+        color: black;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 28pt; */
+        font-weight: normal;
+        /* letter-spacing: -1px; */
+        /* line-height: 1; */
         text-align: left;
-        padding: 8px;
       }
 
-      tr:nth-child(even) {
-        background-color: #dddddd;
+      h2 {
+        color: black;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 20pt; */
+        font-weight: normal;
+        /* line-height: 0.75; */
+        /* margin: 0 72px; */
+        text-align: center;
       }
+
+      h3 {
+        color: black;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 18pt; */
+        font-weight: normal;
+        /* line-height: 32px;
+          margin: 0 72px; */
+        text-align: left;
+      }
+
+      h4 {
+        color: black;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 15pt; */
+        font-weight: normal;
+        /* line-height: 32px;
+          margin: 0 72px; */
+        text-align: left;
+      }
+
+      p {
+        color: black;
+        /* font-family: Helvetica, sans-serif; */
+        /* font-size: 13pt; */
+        /* line-height: 24px; */
+        /* margin: 0 24px; */
+        text-align: justify;
+        text-justify: inter-word;
+      }
+
+      body {
+        /* font-size: 13pt; */
+        font-family: Helvetica, sans-serif;
+      }
+
+      /* ul {} */
+
+      li {
+        margin: 4px 0;
+        text-decoration: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 0px solid black;
+        border-spacing: 10px 0; /* horizontal, vertical */
+      }
+
+      tr.border_bottom {
+        color: #111;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 13pt; */
+        text-align: center;
+        text-justify: inter-word;
+        vertical-align: middle;
+        padding: 5px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+      }
+
+      td {
+        color: #111;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 13pt; */
+        text-align: center;
+        text-justify: inter-word;
+        vertical-align: middle;
+        padding: 6px;
+        /* border-top: 1px solid #ddd;
+          border-bottom: 1px solid #ddd; */
+      }
+
+      th {
+        font-size: 14pt;
+        color: #000;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        vertical-align: middle;
+      }
+
+      /* tr:nth-child(even) {
+        background-color: #f2f2f2;
+        } */
+
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+      /* table.roundedCorners {
+        border: 1px solid black;
+        border-radius: 13px;
+        border-spacing: 0;
+        border-collapse: collapse;
+        }
+
+        table.roundedCorners td,
+        table.roundedCorners th {
+        border-bottom: 1px solid black;
+        padding: 10px;
+        }
+
+        table.roundedCorners tr:last-child>td {
+        border-bottom: none;
+        } */
+
+      a,
+     /* unvisited link */
+     a:link,
+     /* visited link */
+     a:visited {
+        color: #000;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 13pt; */
+        text-decoration: none;
+      }
+
+      /* mouse over link, must come after a:link and a:visited */
+      a:hover {
+        color: #000;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 13pt; */
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      /* selected link */
+      a:active {
+        color: #000;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 13pt; */
+        text-decoration: none;
+      }
+
+      a.header_bar {
+        color: #000;
+        font-family: Helvetica, sans-serif;
+        /* font-size: 21pt; */
+        text-decoration: none;
+        font-weight: normal;
+        line-height: 0.75;
+        /* margin: 0 72px; */
+        text-align: center;
+        /* text-transform: uppercase; */
+      }
+
+      /* .disabled {
+        pointer-events: none;
+        cursor: default;
+        } */
     </style>
+
+<title>ESC 101 Semester 2021-2022-I</title>
+    <meta content="Swarnendu Biswas" name="author" />
+    <meta
+      content="ESC 101 Semester 2021-2022-I Course Page"
+      name="description"
+    />
   </head>
 
   <body>
     <h1>ESC 101: Fundamentals of Computing</h1>
-    <h2>Semester 2021-2022-I, IIT Kanpur</h2>
+    <h3>Semester 2021-2022-I, IIT Kanpur</h3>
 
     <hr style="width: 100%; height: 0px" />
 
-    <h2>Course Description</h2>
+    <h3>Course Description</h3>
     <p>
       This course is a first introduction to computer programming using the C programming language.
     </p>
 
-    <h3>Instructor Details</h3>
+    <h3>Instructor Information</h3>
 
-    <table style="width: 50%">
+    <table style="width: 40%" rules="rows">
       <tr>
         <th>Section</th>
         <th>Name</th>
@@ -55,34 +216,34 @@
       </tr>
     </table>
 
-    <h3>TA/Tutor Details</h3>
+    <!-- <h3>TA/Tutor Details</h3>
 
-    <h4>Section C</h4>
+         <h4>Section C</h4>
 
-    <table style="width: 50%">
-      <tr>
-        <td>Tutors</td>
-        <td><a href="">Tutor-Student mapping</a></td>
-      </tr>
-      <tr>
-        <td>TAs</td>
-        <td><a href="">TA-Student mapping</a></td>
-      </tr>
-    </table>
+         <table border="1" rules="rows" style="width: 40%">
+         <tr>
+         <td>Tutors</td>
+         <td><a href="">Tutor-Student mapping</a></td>
+         </tr>
+         <tr>
+         <td>TAs</td>
+         <td><a href="">TA-Student mapping</a></td>
+         </tr>
+         </table>
 
-    <h4>Section D</h4>
+         <h4>Section D</h4>
 
-    <table style="width: 50%">
-      <tr>
-        <td>Tutors</td>
-        <td><a href="">Tutor-Student mapping</a></td>
-      </tr>
-      <tr>
-        <td>TAs</td>
-        <td><a href="">TA-Student mapping</a></td>
-      </tr>
-    </table>
-
+         <table border="1" frame="void" rules="rows" style="width: 40%">
+         <tr>
+         <td>Tutors</td>
+         <td><a href="">Tutor-Student mapping</a></td>
+         </tr>
+         <tr>
+         <td>TAs</td>
+         <td><a href="">TA-Student mapping</a></td>
+         </tr>
+         </table>
+    -->
     <p></p>
     <p></p>
     <p></p>
@@ -98,9 +259,9 @@
 
     <hr />
 
-    <h2><a id="schedule">Course Schedule</a></h2>
+    <h3><a id="schedule">Course Schedule</a></h3>
 
-    <table style="width: 50%">
+    <table border="1" rules="rows" style="width: 40%">
       <tr>
         <td>Lectures</td>
         <td>Asynchronous</td>
@@ -125,27 +286,32 @@
       other resources and come prepared with your questions for the weekly tutorial classes.
     </p>
 
+
+    <p style="font-size: 120%">
+      The following links contain important information related to the weekly schedule, and Tutor+TA-to-Student mapping.
+    </p>
+
     <p style="font-size: 120%">
       <h>
         <a
-          href="https://docs.google.com/spreadsheets/d/1f5ATeE7E0oyNpIHYx8SzJ_TNxHj3t3J8nrRunrdGJv8/edit?usp=sharing"
-          >Weekly Schedule</a
-        >
+          href="https://docs.google.com/spreadsheets/d/17T180wiVHntxPBfDzZqcr9_ThANxJQLo9nyfVZALA8c/edit?usp=sharing"
+        >Weekly Schedule</a
+                        >
       </h>
     </p>
 
     <p style="font-size: 120%">
       <h>
         <a
-          href="https://docs.google.com/spreadsheets/d/1f5ATeE7E0oyNpIHYx8SzJ_TNxHj3t3J8nrRunrdGJv8/edit?usp=sharing"
-          >Course Calendar</a
-        >
+          href="https://calendar.google.com/calendar/u/0?cid=ZnVwYm5raDRvNmc0M3JvZTFzaWd1bm5ubjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+        >Course Calendar</a
+                        >
       </h>
     </p>
 
     <hr style="width: 100%; height: 0px" />
 
-    <h2><a id="policies">Course Policies</a></h2>
+    <h3><a id="policies">Course Policies</a></h3>
 
     <p>Please try to attend all lab sessions.</p>
 
@@ -167,7 +333,7 @@
 
     <hr style="width: 100%; height: 0px" />
 
-    <h2><a id="integrity">Academic Integrity</a></h2>
+    <h3><a id="integrity">Academic Integrity</a></h3>
 
     <ul>
       <li>
@@ -193,7 +359,7 @@
 
     <hr style="width: 100%; height: 0px" />
 
-    <h2><a id="evaluation">Evaluation Scheme</a></h2>
+    <h3><a id="evaluation">Evaluation Scheme</a></h3>
 
     <ul>
       <li>Weekly labs (best 10/11) - 70%</li>
@@ -214,7 +380,7 @@
 
     <hr style="width: 100%; height: 0px" />
 
-    <h2><a id="resources">Other Resources</a></h2>
+    <h3><a id="resources">Other Resources</a></h3>
 
     The labs will be conducted online via the
     <a href="https://esc101.cse.iitk.ac.in/" target="_blank">Prutor interface</a> developed at IITK.
